@@ -1,0 +1,139 @@
+/* register form  */
+
+.FormBlock {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(241, 241, 241);
+  width: 300px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.ImgForm {
+  width: 300px;
+  height: 200px;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  position: relative;
+
+}
+
+input,
+button {
+  width: 300px;
+}
+
+input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  border-bottom: 2px solid rgb(176, 176, 176);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+
+label {
+  color: rgb(41, 26, 125);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+  padding: 5px;
+  font-size: 20px;
+  margin-top: 25px;
+  border: 2px solid rgb(41, 26, 125);
+  background-color: rgb(41, 26, 125);
+  color: white;
+  font-weight: 500;
+}
+
+input:active {
+  border-bottom: 3px solid rgb(41, 26, 125);
+}
+
+input:focus {
+  border-bottom: 3px solid rgb(41, 26, 125);
+}
+
+button:active {
+  background-color: rgb(255, 255, 255);
+  color: rgb(41, 26, 125);
+}
+
+button:focus {
+  background-color: rgb(255, 255, 255);
+  color: rgb(41, 26, 125);
+}
+
+
+
+/* login form  */
+
+.BlockLoginForm {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(241, 241, 241);
+  width: 300px;
+  padding: 15px;
+  margin-left: 50px;
+  height: 420px;
+  border-radius: 15px;
+  height: 220px;
+}
+
+.LoginForm {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+
+.Forms {
+  display: flex;
+}
+
+.Buttons {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+img,
+button {
+  border-radius: 15px;
+}
+
+input {
+  background-color: transparent;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Forms {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.error {
+  color: red;
+  border-bottom: 3px solid red;
+}
