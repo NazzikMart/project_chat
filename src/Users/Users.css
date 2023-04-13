@@ -1,0 +1,94 @@
+/* Users Component */
+.UserChat {
+    width: 310px;
+    height: 74px;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 14px;
+    position: relative;
+    left: 15px;
+    margin-top: 20px;
+}
+
+.UsersName {
+    position: relative;
+    left: 20px;
+    top: -5px;
+    font-size: 12px;
+}
+
+.UserChat {
+    display: flex;
+    background-color: transparent;
+}
+
+
+
+.UsersLogo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    display: block;
+    position: relative;
+    top: 5px;
+    border: 2px solid rgb(208, 182, 16);
+    left: 5px;
+}
+
+
+
+.UsersMessage {
+    font-size: 10px;
+    position: relative;
+    top: 32px;
+    left: -10px;
+    color: rgb(171, 171, 171);
+}
+
+.UsersDate {
+    font-size: 10px;
+    position: absolute;
+    top: 9px;
+    /* left: 150px; */
+    /* margin-left: 50px; */
+    left: 250px;
+}
+
+.OnlyUsers {
+    font-weight: 700;
+    color: rgb(20, 162, 81);
+    position: relative;
+    top: 25px;
+    margin-left: -10px;
+}
+
+.UserChat:focus {
+    background-color: rgba(101, 136, 222, 1);
+    color: white;
+}
+
+.UserChat:active {
+    background-color: rgba(101, 136, 222, 1);
+    color: white;
+}
+
+.Users {
+    position: relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom: 20px;
+    padding-top: 1px;
+    top: 10px;
+    background-color: rgba(227, 246, 252, 1);
+    cursor: pointer;
+
+}
+
+.scroll {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    height: 570px;
+    overflow-y: scroll;
+}

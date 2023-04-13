@@ -1,0 +1,16 @@
+.LeftMenu {
+    background-color: #f8f8f8;
+    width: 350px;
+    min-height: 779px;
+    background-attachment: scroll;
+    z-index: 1000;
+}
+
+.NewChat {
+    position: relative;
+    margin-left: 800px;
+    width: 200px;
+    display: block;
+    z-index: 0;
+    top: -100px;
+}
