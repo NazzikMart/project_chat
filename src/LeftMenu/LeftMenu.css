@@ -6,11 +6,4 @@
     z-index: 1000;
 }
 
-.NewChat {
-    position: relative;
-    margin-left: 800px;
-    width: 200px;
-    display: block;
-    z-index: 0;
-    top: -100px;
-}
+.NewChat {}

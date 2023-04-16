@@ -1,0 +1,9 @@
+.HeaderUserChat {
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 40px;
+    position: relative;
+    margin-top: -754px;
+    margin-left: 750px;
+    z-index: 10000;
+}

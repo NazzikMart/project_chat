@@ -5,9 +5,12 @@ import Users from "../Users/Users";
 import MenuFunctions from "../MenuFunctions/MenuFunctions";
 import NewChat from "../NewChat/NewChat";
 import { useState } from "react";
+import HeaderUserChat from "../HeaderUsersChat/HeaderUserChat";
+import MessageChatUser from "../MessageChatUser/MessageChatUser";
 
 export default function LeftMenu() {
   const [state, setState] = useState(true);
+  const [toogle, setToogle] = useState(true);
   if (state === true) {
     return (
       <div className="LeftMenu">
@@ -26,7 +29,8 @@ export default function LeftMenu() {
         <MenuFunctions />
 
         <div className="NewChat">
-          <NewChat />
+          <HeaderUserChat />
+          <MessageChatUser />
         </div>
       </div>
     );
